@@ -1,0 +1,180 @@
+body {
+  color: #393d41;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #25a2c3;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+header #logo {
+  background-color: black;
+  text-align: start;
+}
+
+header img {
+  width: 150px;
+  padding: 1rem;
+  padding-left: 2rem;
+}
+
+header #heading {
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 5rem;
+  padding-inline: 15rem;
+  padding-bottom: 5rem;
+}
+
+header h1 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+  font-size: 2.5rem;
+}
+
+#heading p {
+  padding: 1rem;
+}
+
+header button {
+  color: white;
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border-color: transparent;
+  border-radius: 3px;
+  padding-inline: 2rem;
+  padding-block: 0.8rem;
+}
+
+section {
+  vertical-align: middle;
+  padding-top: 6rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 8rem;
+}
+
+section h3 {
+  padding-top: 1.5rem;
+}
+
+#rounded {
+  border-radius: 50%;
+}
+
+#img {
+  display: inline-block;
+  width: 40%;
+  padding-left: 5rem;
+}
+
+#txt {
+  display: inline-block;
+  width: 40%;
+  padding-left: 2rem;
+}
+
+#testimonianze {
+  text-align: center;
+  background-color: #e22d0e;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#testimonianze h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+#testimonianze p {
+  font-size: 1.2rem;
+  padding: 0%;
+}
+
+#testimonianze #quote {
+  font-style: italic;
+  padding-block: 2rem;
+}
+
+#testimonianze #CEO-name {
+  font-size: 1.3rem;
+}
+
+#testimonianze #CEO {
+  font-size: small;
+}
+
+.schede {
+  border: 1px solid #dee1e3;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  width: 27%;
+  display: inline-block;
+  text-align: center;
+  margin-inline: 2rem;
+}
+
+.sc-img {
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+}
+
+.schede p {
+  line-height: 1.2;
+  padding-inline: 1rem;
+}
+
+footer {
+  background-color: #25a2c3;
+  color: #c8e7f0;
+  font-size: 1rem;
+}
+
+footer div {
+  width: 300px;
+  margin-inline: auto;
+}
+
+footer h2 {
+  text-align: center;
+  color: white;
+  font-size: 1.8rem;
+  padding-top: 2rem;
+}
+
+footer address {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+hr {
+  width: 100%;
+}
+
+#copyright {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 1.5rem;
+  padding-bottom: 3.5rem;
+}

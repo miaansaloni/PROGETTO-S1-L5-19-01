@@ -1,1 +1,92 @@
 /* Your styles here */
+body {
+  color: #393d41;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #25a2c3;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  text-align: center;
+}
+header #logo {
+  background-color: black;
+  width: 100%;
+}
+header #heading {
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  padding: 2rem;
+}
+
+header h1 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+  font-size: 2.5rem;
+}
+
+#heading p {
+  padding: 1rem;
+}
+
+header button {
+  color: white;
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border-color: transparent;
+  border-radius: 3px;
+  padding-inline: 1.5rem;
+  padding-block: 0.5rem;
+}
+
+section {
+  padding: 2rem;
+}
+
+section h3 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  padding-top: 1rem;
+}
+
+#rounded {
+  width: 100%;
+  border-radius: 50%;
+}
+
+#testimonianze {
+  background-color: #e22d0e;
+  color: white;
+  padding-top: 2.5rem;
+}
+
+#testimonianze h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+#testimonianze p {
+  font-size: 1rem;
+}
+
+#testimonianze #quote {
+  font-style: italic;
+  padding-block: 2rem;
+}
+
+#testimonianze #CEO {
+  font-size: 1.2rem;
+}
